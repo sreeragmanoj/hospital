@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from ast import Return
+from enum import Flag
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import Departments,Doctors
 from .forms import BookingForm
